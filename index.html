@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo da Velha</title>
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="css/estilo.css">
+        
+        <script src="js/logica.js"></script>
+
+        <link rel="shortcut icon" href="imagens/jogo-da-velha.png" type="image/x-icon">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row mt-3 mb-3">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        
+                        <h1 class="display-2">Jogo da Velha</h1>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        
+                        <button onclick="jogada('a1')" id="a1" class="btn btn-lg btn-outline-dark fs-3 fw-bold"></button>
+                        <button onclick="jogada('a2')" id="a2" class="btn btn-lg btn-outline-dark fs-3 fw-bold"></button>
+                        <button onclick="jogada('a3')" id="a3" class="btn btn-lg btn-outline-dark fs-3 fw-bold"></button>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        
+                        <button onclick="jogada('b1')" id="b1" class="btn btn-lg btn-outline-dark fs-3 fw-bold"></button>
+                        <button onclick="jogada('b2')" id="b2" class="btn btn-lg btn-outline-dark fs-3 fw-bold"></button>
+                        <button onclick="jogada('b3')" id="b3" class="btn btn-lg btn-outline-dark fs-3 fw-bold"></button>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        
+                        <button onclick="jogada('c1')" id="c1" class="btn btn-lg btn-outline-dark fs-3 fw-bold"></button>
+                        <button onclick="jogada('c2')" id="c2" class="btn btn-lg btn-outline-dark fs-3 fw-bold"></button>
+                        <button onclick="jogada('c3')" id="c3" class="btn btn-lg btn-outline-dark fs-3 fw-bold"></button>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        
+                        <h3 id="legenda" class="display-10">Vez do jogador <span class="fw-bold" id="jogador">X</span></h3>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        
+                        <h3 id="reiniciar"
+                        onclick="reiniciar()" 
+                        class="btn btn-dark btn-lg">
+                            Reiniciar
+                        </h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                By <a href="https://github.com/MarcosPaulo62">Marcos Paulo</a> <br>
+                Ícone da página feito pelo Freepik de <a href="www.flaticon.com">www.flaticon.com</a>
+            </div>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+#reiniciar{
+    display: none;
+}
+
+.display-10{
+    font-size: calc(1.575rem + 0.3vw);
+    font-weight: 300;
+    line-height: 2;
+}
+
+.btn-outline-dark{
+    --bs-btn-hover-color: #212529;
+    --bs-btn-hover-bg: none;
+    --bs-btn-hover-border-color: #212529;
+    --bs-btn-focus-shadow-rgb: none;
+    --bs-btn-active-bg: none;
+}
+
+footer{
+    margin: 70px 0px 10px 10px;
+}
+
+@media (min-height: 600px) {
+    footer{
+        position: absolute;
+        bottom: 0px;
+    }
+}
